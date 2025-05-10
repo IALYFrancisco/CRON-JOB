@@ -1,0 +1,14 @@
+name: Render Night Light
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'  # Runs every 5 minutes (UTC)
+  workflow_dispatch:        # Allows manual trigger
+
+jobs:
+  keep-awake:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Ping the Render app to keep it awake
+        run: curl -s https://portfolio-4n0j.onrender.com
