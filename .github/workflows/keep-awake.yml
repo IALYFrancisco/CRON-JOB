@@ -15,3 +15,6 @@ jobs:
 
       - name: Ping ME application 📉
         run: curl -s https://me-ne9o.onrender.com
+      
+      - name: Ping LUMINI application 🏢
+        run: curl -s https://lumini.onrender.com
