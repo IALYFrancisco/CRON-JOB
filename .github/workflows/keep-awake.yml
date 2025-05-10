@@ -12,7 +12,6 @@ jobs:
     steps:
       - name: Ping my portolio_3 🙍‍♂️
         run: curl -s https://portfolio-4n0j.onrender.com
-    
-    steps:
+
       - name: Ping ME application 📉
         run: curl -s https://me-ne9o.onrender.com
